@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b703f80e43f4331a3e6a6eca4e9c9e6" Name="Diagram1">
+        <EntityTypeShape EntityType="PricingPortalModel.EmailLog" Width="1.5" PointX="19.25" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Setting" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.StructureDeskSetting" Width="1.5" PointX="13.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Address" Width="1.5" PointX="5.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Contact" Width="1.5" PointX="12.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CreditHistory" Width="1.5" PointX="15.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Customer" Width="1.5" PointX="10.5" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CustomerDocument" Width="1.5" PointX="15.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Site" Width="1.5" PointX="7.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteService" Width="1.5" PointX="18.5" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteServiceCustomerDocument" Width="1.5" PointX="20.75" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.C__RefactorLog" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ChannelPartnerDealSplit" Width="1.5" PointX="23.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.IntegrationErrorLog" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.IntegrationLogging" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SerializedObject" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.AdditionalDEBMargin" Width="1.5" PointX="5.25" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ChannelPartnerFee" Width="1.5" PointX="8.25" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Contract" Width="1.5" PointX="26" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractDocument" Width="1.5" PointX="28.25" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.DebMargin" Width="1.5" PointX="5.25" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.HuRequest" Width="1.5" PointX="20.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.HuRequestStatu" Width="1.5" PointX="23" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.MatrixRequest" Width="1.5" PointX="0.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.MatrixResponse" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Offer" Width="1.5" PointX="21.5" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferDealSplit" Width="1.5" PointX="25.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferDetail" Width="1.5" PointX="23.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferEvent" Width="1.5" PointX="23.75" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferPricingResult" Width="1.5" PointX="26" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferPricingSubmission" Width="1.5" PointX="23.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferRAROCResult" Width="1.5" PointX="23.75" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferSheet" Width="1.5" PointX="23.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferSheetPricing" Width="1.5" PointX="26" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.UtilityTDSP" Width="1.5" PointX="13.25" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ISRPool" Width="1.5" PointX="11.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ISRPoolMember" Width="1.5" PointX="13.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OrgAllStatesOption" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Organization" Width="1.5" PointX="8.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OrgAssignment" Width="1.5" PointX="8.25" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OrgStateSetting" Width="1.5" PointX="5.25" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OrgTermSetting" Width="1.5" PointX="5.25" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Person" Width="1.5" PointX="8.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.PersonAssignment" Width="1.5" PointX="10.5" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Term" Width="1.5" PointX="7.5" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContactPhoneType" Width="1.5" PointX="10.5" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContactTitleType" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractDocumentType" Width="1.5" PointX="26" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractTemplateType" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Country" Width="1.5" PointX="0.75" PointY="34.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CreditStatusType" Width="1.5" PointX="8.25" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CustomerDocumentType" Width="1.5" PointX="13.5" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CustomField" Width="1.5" PointX="9" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CustomFieldValue" Width="1.5" PointX="11.25" PointY="57.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Document" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.EmailType" Width="1.5" PointX="14.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.EnrollmentType" Width="1.5" PointX="16.25" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ISO" Width="1.5" PointX="11" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Language" Width="1.5" PointX="15.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.LoadFactorType" Width="1.5" PointX="16.25" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.OfferPricingStatusType" Width="1.5" PointX="19.25" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.PersonAssignmentType" Width="1.5" PointX="8.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.PricingType" Width="1.5" PointX="19.25" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.RateCodeMap" Width="1.5" PointX="11.25" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Region" Width="1.5" PointX="0.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Regulatory" Width="1.5" PointX="5.25" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SalesChannelType" Width="1.5" PointX="10.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ServiceType" Width="1.5" PointX="11" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Signature" Width="1.5" PointX="15.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SourceSystem" Width="1.5" PointX="17.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.StateProvince" Width="1.5" PointX="3" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.StateProvinceCustomFieldMap" Width="1.5" PointX="11.25" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.TDSPThreshold" Width="1.5" PointX="11" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.UnitOfMeasureType" Width="1.5" PointX="16.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Utility" Width="1.5" PointX="11" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.UtilityEmail" Width="1.5" PointX="17.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.UtilityService" Width="1.5" PointX="13.25" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.UtilityValidationRule" Width="1.5" PointX="15.5" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Utility1" Width="1.5" PointX="19.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Claim" Width="1.5" PointX="3.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ClaimType" Width="1.5" PointX="1.5" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Resource" Width="1.5" PointX="1.5" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Role" Width="1.5" PointX="6" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.USER_SESSION" Width="1.5" PointX="19.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Customer1" Width="1.5" PointX="13.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.Site1" Width="1.5" PointX="16" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteService1" Width="1.5" PointX="18.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractStatusChildLog" Width="1.5" PointX="18.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractStatusLog" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.CustomerDocumentStage" Width="1.5" PointX="20.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.BrandProperty" Width="1.5" PointX="20.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractTemplate" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractTemplateField" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.ContractTemplateMap" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.EmailTemplate" Width="1.5" PointX="17" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteServiceField" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteServiceFieldMap" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PricingPortalModel.SiteServiceTemplate" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="PricingPortalModel.FK_EMAILTEMPLATE_R_834" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_839" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ISOID_R_1" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ADDRESS_R_700" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ADDRESS_R_779" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ADDRESS_R_786" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_663" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTACTPHONETYPE_R_780" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTACTPHONETYPE_R_781" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMER_R_763" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CREDITSTATUSTYPE_R_795" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMER_R_785" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CREDITSTATUSTYPE_R_798" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMER_R_759" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMER_R_760" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMER_R_761" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ORGANIZATION_R_792" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_813" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_814" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMERDOCUMENT_R_790" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMERDOCUMENTTYPE_R_719" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SITE_R_702" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ENROLLMENTTYPE_R_850" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_LOADFACTORTYPE_R_783" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SITESERVICE_R_685" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SITESERVICE_R_791" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SITESERVICE_R_811" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UNITOFMEASURETYPE_R_782" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITYSERVICE_R_703" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFER_R_858" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ORGANIZATION_R_857" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_StateProvince" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_Utility" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_816" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITY_R_817" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACT_R_770" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERPRICINGSUBMISSION_R_831" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACTDOCUMENTTYPE_R_765" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERSHEET_R_769" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_745" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITY_R_804" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_HUREQUEST_R_644" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_MATRIXREQUEST_R_799" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_Offer_1" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFER_R_688" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFER_R_818" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFER_R_853" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERPRICINGSTATUSTYPE_R_824" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_802" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PRICINGTYPE_R_862" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_819" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERDETAIL_R_689" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UNITOFMEASURETYPE_R_809" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERPRICINGSUBMISSION_R_690" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERPRICINGSUBMISSION_R_830" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OFFERSHEET_R_829" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_TDSPTHRESHOLD_R_843" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITY_R_842" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ISRPOOL_R_742" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_741" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ORGANIZATION_R_731" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_732" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_861" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OrgStateSettings_StateProvince" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_OrgTermSettings_StateProvince" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_TERMS_ORGTERMSETTINGS" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_735" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSON_R_736" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ROLE_R_757" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_PERSONASSIGNMENTTYPE_R_737" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_TERMS_PRICINGTYPEID" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACTTEMPLATETYPE_R_836" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACTTEMPLATETYPE_R_838" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_COUNTRY_R_750" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CUSTOMFIELD_CUSTOMFIELD" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CustomFieldValue_CustomFieldId" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_EMAILTYPE_R_832" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ISO_R_820" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_848" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITY_R_849" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_REGION_R_751" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_Reference_Regulatory_StateProvince" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SERVICETYPE_R_758" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_R_787" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_STATEPROVINCE_STATEPROVINCE" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITY_R_701" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_UTILITYSERVICE_R_812" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CLAIM_TYPE_R_67" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_RESOURCE_R_66" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_ROLE_R_835" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SITE_CUSTOMER" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SERVICE_SITE" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACTTEMPLATE_R_840" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_CONTRACTTEMPLATEMAP_R_837" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SiteServiceFieldMap_SiteServiceField" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.FK_SiteServiceFieldMap_SiteServiceTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.OfferEmailLog" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.OrgSalesChannel" ManuallyRouted="false" />
+        <AssociationConnector Association="PricingPortalModel.RoleClaim" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

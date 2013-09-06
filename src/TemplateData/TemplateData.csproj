@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A006E80C-AAA5-4667-BD11-C303E6BB1FA7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TemplateData</RootNamespace>
+    <AssemblyName>TemplateData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalDEBMargin.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrandProperty.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelPartnerDealSplit.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelPartnerFee.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Claim.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClaimType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactPhoneType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactTitleType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contract.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDocument.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractDocumentType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractStatusChildLog.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractStatusLog.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTemplate.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTemplateField.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTemplateMap.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractTemplateType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CreditHistory.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CreditStatusType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer1.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDocument.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDocumentStage.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDocumentType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomField.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CustomFieldValue.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__RefactorLog.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DebMargin.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Document.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailLog.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailTemplate.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmailType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EnrollmentType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HuRequest.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HuRequestStatu.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntegrationErrorLog.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntegrationLogging.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ISO.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ISRPool.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ISRPoolMember.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoadFactorType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MatrixRequest.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MatrixResponse.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Offer.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferDealSplit.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferDetail.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferEvent.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferPricingResult.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferPricingStatusType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferPricingSubmission.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferRAROCResult.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferSheet.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OfferSheetPricing.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgAllStatesOption.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Organization.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgAssignment.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgStateSetting.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgTermSetting.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAssignment.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonAssignmentType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PricingType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateCodeMap.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Region.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Regulatory.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Role.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SalesChannelType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SerializedObject.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Signature.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Site.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteService.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteService1.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteServiceCustomerDocument.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteServiceField.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteServiceFieldMap.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteServiceTemplate.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SourceSystem.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StateProvince.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StateProvinceCustomFieldMap.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StructureDeskSetting.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TDSPThreshold.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateData.cs" />
+    <Compile Include="TemplateModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TemplateModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TemplateModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Term.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnitOfMeasureType.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USER_SESSION.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utility1.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityEmail.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityService.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityTDSP.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityValidationRule.cs">
+      <DependentUpon>TemplateModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="TemplateModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TemplateModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="TemplateModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TemplateModel.edmx</DependentUpon>
+      <LastGenOutput>TemplateModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="TemplateModel.edmx.diagram">
+      <DependentUpon>TemplateModel.edmx</DependentUpon>
+    </None>
+    <None Include="TemplateModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TemplateModel.edmx</DependentUpon>
+      <LastGenOutput>TemplateModel.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
