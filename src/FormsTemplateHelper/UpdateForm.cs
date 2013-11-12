@@ -25,7 +25,7 @@ namespace FormsTemplateHelper
             {
                 comboBox1.Items.Add(new ComboboxItem()
                 {
-                    Text = string.Format("{0} ({1})", templateType.TemplateTypeCode, templateType.Description),
+                    Text = string.Format("{0} ({2}: {1})", templateType.TemplateTypeCode, templateType.Description, templateType.ContractTemplateTypeId),
                     Value = templateType.ContractTemplateTypeId
                 });
             }

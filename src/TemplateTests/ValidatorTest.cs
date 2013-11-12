@@ -6,7 +6,7 @@ using TemplateValidator;
 namespace TemplateTests
 {
     [TestClass]
-    public class DataTest
+    public class ValidatorTest
     {
         [TestMethod]
         public void TestGetTemplateTypes()
